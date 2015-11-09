@@ -12,9 +12,10 @@ usage:
   Visitfile contains a list of walks represented as nodes deliminated by '_', and walks separated by newlines(\n).
   TIME1 TIME2 contain graph snapshots represented as a list of connections which are represented as "(node1) \t         (node2)"
   that is, for example  
-    1   2
-  or 1 connects to 2
+  1   2
+  or 
+  1 connects to 2
   
-  The program assumes that connections are bidrectional, that nodes cannot connect to themselves, and that nodes have    at most one connection to any other node.
+  The program assumes that connections are bidrectional, that nodes cannot connect to themselves, and that nodes have    at least one connection to any other node.
     
     
